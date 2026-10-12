@@ -1,0 +1,14 @@
+{
+  "name": "Zoo Tycoon",
+  "short_name": "Zoo Tycoon",
+  "description": "Grow a startup forest zoo into a 16-biome wildlife empire.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf6e3",
+  "theme_color": "#2e7d32",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icon-1024.png", "sizes": "1024x1024", "type": "image/png" }
+  ]
+}

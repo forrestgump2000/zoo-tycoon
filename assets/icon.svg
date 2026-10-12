@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fd3ff"/><stop offset=".6" stop-color="#d9f6c8"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#66bb4a"/><stop offset="1" stop-color="#2e7d32"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8d5a2b"/><stop offset=".5" stop-color="#b47a3c"/><stop offset="1" stop-color="#7a4a22"/></linearGradient>
+    <linearGradient id="sign" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#f3a51f"/></linearGradient>
+    <clipPath id="r"><rect width="1024" height="1024" rx="230"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1024" height="1024" fill="url(#sky)"/>
+    <circle cx="800" cy="210" r="95" fill="#fff59d"/><circle cx="800" cy="210" r="70" fill="#ffeb3b"/>
+    <ellipse cx="230" cy="190" rx="120" ry="45" fill="#fff" opacity=".9"/><ellipse cx="300" cy="165" rx="80" ry="45" fill="#fff" opacity=".9"/>
+    <ellipse cx="200" cy="760" rx="420" ry="230" fill="#81c784"/>
+    <ellipse cx="860" cy="770" rx="420" ry="240" fill="#66bb6a"/>
+    <rect y="720" width="1024" height="304" fill="url(#grass)"/>
+    <path d="M380 1024 L460 720 L564 720 L644 1024 Z" fill="#e3c08a"/>
+    <!-- trees -->
+    <g fill="#2e7d32"><path d="M90 720 L160 500 L230 720Z"/><path d="M110 620 L160 440 L210 620Z"/><path d="M800 720 L880 480 L960 720Z"/><path d="M825 610 L880 420 L935 610Z"/></g>
+    <rect x="150" y="715" width="20" height="40" fill="#6d4c41"/><rect x="870" y="715" width="20" height="40" fill="#6d4c41"/>
+    <!-- gate -->
+    <rect x="250" y="360" width="80" height="420" rx="14" fill="url(#wood)"/>
+    <rect x="694" y="360" width="80" height="420" rx="14" fill="url(#wood)"/>
+    <path d="M220 400 Q512 210 804 400 L804 470 Q512 290 220 470 Z" fill="#8d5a2b"/>
+    <rect x="300" y="300" width="424" height="150" rx="36" fill="url(#sign)" stroke="#a86a12" stroke-width="12"/>
+    <text x="512" y="415" font-family="Arial Rounded MT Bold, Arial Black, Helvetica, sans-serif" font-weight="900" font-size="128" text-anchor="middle" fill="#2e5d1e" letter-spacing="8">ZOO</text>
+    <circle cx="290" cy="350" r="34" fill="#f44336"/><circle cx="734" cy="350" r="34" fill="#f44336"/>
+    <!-- leaves on gate -->
+    <g fill="#43a047"><ellipse cx="250" cy="380" rx="46" ry="26" transform="rotate(-30 250 380)"/><ellipse cx="774" cy="380" rx="46" ry="26" transform="rotate(30 774 380)"/></g>
+    <!-- deer -->
+    <g transform="translate(512 760)">
+      <ellipse cx="0" cy="140" rx="150" ry="22" fill="#000" opacity=".18"/>
+      <rect x="-95" y="40" width="22" height="100" rx="10" fill="#8d5524"/><rect x="-55" y="45" width="22" height="95" rx="10" fill="#7a4a1e"/>
+      <rect x="45" y="45" width="22" height="95" rx="10" fill="#7a4a1e"/><rect x="80" y="40" width="22" height="100" rx="10" fill="#8d5524"/>
+      <ellipse cx="0" cy="40" rx="125" ry="62" fill="#b5763a"/>
+      <ellipse cx="0" cy="55" rx="85" ry="32" fill="#e8c08e"/>
+      <circle cx="-40" cy="20" r="9" fill="#fff" opacity=".8"/><circle cx="10" cy="10" r="8" fill="#fff" opacity=".8"/><circle cx="50" cy="25" r="7" fill="#fff" opacity=".8"/>
+      <path d="M-100 20 Q-150 -40 -130 -110 L-80 -100 Q-80 -30 -60 10Z" fill="#b5763a"/>
+      <ellipse cx="-130" cy="-130" rx="58" ry="48" fill="#c4834a"/>
+      <ellipse cx="-175" cy="-112" rx="26" ry="20" fill="#e8c08e"/><circle cx="-195" cy="-118" r="9" fill="#3e2723"/>
+      <circle cx="-128" cy="-142" r="11" fill="#2b1a10"/><circle cx="-124" cy="-146" r="4" fill="#fff"/>
+      <ellipse cx="-92" cy="-170" rx="26" ry="13" fill="#b5763a" transform="rotate(-35 -92 -170)"/>
+      <g stroke="#6d4c41" stroke-width="12" stroke-linecap="round" fill="none"><path d="M-120 -175 Q-130 -240 -90 -290"/><path d="M-125 -225 L-165 -260"/><path d="M-105 -260 L-70 -275"/><path d="M-100 -170 Q-60 -220 -30 -240"/><path d="M-60 -215 L-55 -255"/></g>
+      <ellipse cx="128" cy="15" rx="18" ry="28" fill="#fff" transform="rotate(30 128 15)"/>
+    </g>
+    <!-- coin -->
+    <g transform="translate(820 840)"><circle r="88" fill="#ffca28" stroke="#e09b00" stroke-width="14"/><text y="44" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" font-size="130" text-anchor="middle" fill="#9a6400">$</text></g>
+  </g>
+</svg>

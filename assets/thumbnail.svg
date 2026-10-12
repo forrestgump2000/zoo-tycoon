@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6cc6ff"/><stop offset=".7" stop-color="#dff7cf"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6abf4b"/><stop offset="1" stop-color="#2e7d32"/></linearGradient>
+    <linearGradient id="sign" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#f3a51f"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="1060" cy="110" r="70" fill="#fff59d"/><circle cx="1060" cy="110" r="52" fill="#ffeb3b"/>
+  <ellipse cx="170" cy="90" rx="110" ry="36" fill="#fff" opacity=".9"/><ellipse cx="230" cy="70" rx="70" ry="36" fill="#fff" opacity=".9"/>
+  <ellipse cx="820" cy="70" rx="90" ry="28" fill="#fff" opacity=".8"/>
+  <path d="M0 420 Q200 330 420 400 T820 380 T1200 400 L1200 630 L0 630Z" fill="#8fd17a"/>
+  <path d="M0 470 Q300 410 600 460 T1200 450 L1200 630 L0 630Z" fill="url(#grass)"/>
+  <text x="600" y="58" font-size="40" text-anchor="middle">🌲🚜🏜️🪷🌨️🦋🧊🏔️🏯🦁🌴🦜🐠🦘🌙🦖</text>
+  <rect x="120" y="100" width="960" height="210" rx="48" fill="url(#sign)" stroke="#a86a12" stroke-width="10"/>
+  <text x="600" y="240" font-family="Arial Rounded MT Bold, Arial Black, Helvetica, sans-serif" font-weight="900" font-size="122" text-anchor="middle" fill="#2e5d1e" letter-spacing="2">ZOO TYCOON</text>
+  <text x="600" y="355" font-family="Arial Rounded MT Bold, Helvetica, sans-serif" font-weight="700" font-size="34" text-anchor="middle" fill="#1b4d1f">From one forest &amp; two deer to a 16-biome wildlife empire</text>
+  <text x="600" y="520" font-size="88" text-anchor="middle">🦌🐔🐍🦊🦉🐼🦒🐒🐬🦘🦖</text>
+  <text x="600" y="600" font-size="46" text-anchor="middle">🚶🚶‍♀️👨‍👩‍👧🎈🎡🍔🚻🎠🧑‍🌾🪙💰</text>
+</svg>
