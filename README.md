@@ -2,6 +2,8 @@
 
 ![Zoo Tycoon](assets/thumbnail.png)
 
+**Play it:** https://zoo-tycoon-hazel.vercel.app
+
 Grow a tiny startup zoo — one forest and two deer — into a 16-area wildlife empire. A browser tycoon game in plain HTML, CSS and JavaScript (no build step).
 
 ## Features
