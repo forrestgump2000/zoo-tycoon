@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Zoo Tycoon</title>
-  <meta name="description" content="Grow a tiny startup forest zoo into a world-famous wildlife empire. Simulate day by day, import animals, breed babies, and unlock 16 immersive biomes.">
+  <meta name="description" content="Build a 3D open-world zoo from a single forest and two deer into a 16-area wildlife empire with hundreds of uniquely modeled animals and mythic creatures.">
   <meta name="theme-color" content="#2e7d32">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <meta property="og:title" content="Zoo Tycoon">
-  <meta property="og:description" content="Build your zoo from a single forest and two deer into a 16-biome wildlife empire.">
+  <meta property="og:description" content="A 3D open-world zoo tycoon: 531 uniquely modeled species, mythic creatures, rare events and 16 connected areas.">
   <meta property="og:image" content="https://zoo-tycoon-hazel.vercel.app/assets/thumbnail.png">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
@@ -19,22 +19,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=10">
+  <script type="importmap">
+  { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  } }
+  </script>
 </head>
 <body>
-  <div id="app">
-    <header id="topbar"></header>
-    <div id="main">
-      <nav id="sidebar"></nav>
-      <section id="view"></section>
-    </div>
-  </div>
+  <div id="world"></div>
+  <header id="hud"></header>
+  <nav id="dock"></nav>
+  <aside id="drawer"></aside>
+  <div id="minimap" title="Click to fly there"><canvas width="200" height="200"></canvas></div>
+  <div id="cam-tools"></div>
+  <div id="event-card"></div>
+  <div id="animal-card"></div>
   <div id="toasts"></div>
   <div id="modal-root"></div>
-  <script src="js/data.js?v=4"></script>
-  <script src="js/engine.js?v=4"></script>
-  <script src="js/scene.js?v=4"></script>
-  <script src="js/ui.js?v=4"></script>
-  <script src="js/main.js?v=4"></script>
+  <div id="loading"><img src="assets/icon-192.png" alt=""><div class="lt">Building your zoo...</div><div class="lb"><i></i></div></div>
+  <script src="js/data.js?v=10"></script>
+  <script src="js/engine.js?v=10"></script>
+  <script src="js/icons.js?v=10"></script>
+  <script type="module" src="js/main.js?v=10"></script>
 </body>
 </html>
